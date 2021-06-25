@@ -6,27 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        :root{
+            --text-color: red;
+        }
         #pri{
             color:violet;
         }
-        .header {
+         #pri.header {
             color:greenyellow;
         }
 
         h1{
-            color:red;
+            color:green !important ;
         }
         li{
-            color:blue;
+            color:blue ;
+           
         }
         li{
-            color:violet;
+            color:var(--text-color) ;
         }
 
     </style>
 </head>
 <body>
-    <h1  id="pri" class="header">Priority</h1>
+    <h1  style=" color: red" id="pri" class="header">Priority</h1>
     <ol>
         <li>Internal, external</li>
         <li>Inline -1000</li>
