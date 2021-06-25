@@ -1,0 +1,14 @@
+h1{
+    color:red;
+}
+.box{
+    width:500px;
+    height:100px;
+    background-color:violet;
+
+}
+.box::before {
+    content:"";
+    display:block;
+    background-color:red;
+}
